@@ -1,0 +1,2 @@
+Test,Statistic_name,Statistic,p_value,Effect_size (ε²),Significant (p<0.05)
+Kruskal-Wallis,H,73.276947,0.000000,0.368494,Yes

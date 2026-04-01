@@ -1,0 +1,12 @@
+13:28:59 Welcome to idtracker.ai 6.0.13                                                                   logging_utils.py:184
+13:29:00 Date: 2026-03-06 13:28:59                                                                        logging_utils.py:188
+         Running Python '3.12.7' in 'Windows-11-10.0.22631-SP0'                                                               
+         Writing log in D:\桌面\mt\idtrackerai.log                                                        logging_utils.py:193
+         Using NumPy 2.0.1                                                                                logging_utils.py:196
+         Using headless OpenCV 4.10.0.84                                                                  logging_utils.py:199
+         Regular OpenCV not found                                                                         logging_utils.py:208
+         Using "spawn" multiprocessing start method                                                       logging_utils.py:210
+         No parameter files detected                                                                            __main__.py:44
+         No terminal arguments detected                                                                         __main__.py:52
+13:29:02 Initializing SegmentationGUI with PyQt6 6.10.2                                                    GUI_main_base.py:51
+         Saving GUI settings in \HKEY_CURRENT_USER\Software\idtrackerai\idtrackerai_GUI                    GUI_main_base.py:62

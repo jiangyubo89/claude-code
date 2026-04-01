@@ -1,0 +1,11 @@
+Group1,Group2,Cohens_d,Magnitude
+C,G-0.5,1.6259,large
+C,G-5,2.0662,large
+C,P-0.5,1.0883,large
+C,P-5,1.6102,large
+G-0.5,G-5,0.8850,large
+G-0.5,P-0.5,-0.5258,medium
+G-0.5,P-5,0.1289,negligible
+G-5,P-0.5,-1.2173,large
+G-5,P-5,-0.7261,medium
+P-0.5,P-5,0.5900,medium

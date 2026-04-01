@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 --version 2>/dev/null && pip list 2>/dev/null | grep -i torch)"
+    ]
+  }
+}

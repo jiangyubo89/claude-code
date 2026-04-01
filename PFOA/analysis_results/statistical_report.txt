@@ -1,0 +1,74 @@
+=================================================================
+PFOA BODY LENGTH ANALYSIS — STATISTICAL REPORT
+=================================================================
+
+DATA SUMMARY
+----------------------------------------
+  Total measurements (raw):  200
+  Outliers removed (IQR):    7
+  Clean measurements:        193
+
+DESCRIPTIVE STATISTICS (Length, cm)
+----------------------------------------
+  Control         n=41  Mean=0.3852  SD=0.0263  SE=0.0041  CV%=6.82
+  G 0.5 mg/L      n=40  Mean=0.3486  SD=0.0178  SE=0.0028  CV%=5.11
+  G 5.0 mg/L      n=36  Mean=0.3269  SD=0.0302  SE=0.0050  CV%=9.25
+  P 0.5 mg/L      n=35  Mean=0.3589  SD=0.0214  SE=0.0036  CV%=5.96
+  P 5.0 mg/L      n=41  Mean=0.3460  SD=0.0222  SE=0.0035  CV%=6.42
+
+ASSUMPTION TESTS
+----------------------------------------
+  Shapiro-Wilk normality test:
+    C         W=0.9689  p=0.3181  Normal: Yes
+    G-0.5     W=0.9771  p=0.5847  Normal: Yes
+    G-5       W=0.9602  p=0.2176  Normal: Yes
+    P-0.5     W=0.9690  p=0.4172  Normal: Yes
+    P-5       W=0.9789  p=0.6334  Normal: Yes
+  Levene's test: F=2.6804  p=0.0330  Equal variances: No
+
+MAIN TEST
+----------------------------------------
+  Method: Kruskal-Wallis
+  H = 73.2769
+  p-value = 0.000000
+  Effect size (ε²) = 0.3685
+  Significant overall: Yes
+
+POST-HOC COMPARISONS
+----------------------------------------
+  Method: Mann-Whitney U + Bonferroni
+  C        vs G-0.5     Δmean=+0.0366  p_adj=0.0000  ***
+  C        vs G-5       Δmean=+0.0583  p_adj=0.0000  ***
+  C        vs P-0.5     Δmean=+0.0263  p_adj=0.0004  ***
+  C        vs P-5       Δmean=+0.0392  p_adj=0.0000  ***
+  G-0.5    vs G-5       Δmean=+0.0217  p_adj=0.0148  *
+  G-0.5    vs P-0.5     Δmean=-0.0103  p_adj=0.1861  ns
+  G-0.5    vs P-5       Δmean=+0.0026  p_adj=1.0000  ns
+  G-5      vs P-0.5     Δmean=-0.0320  p_adj=0.0001  ***
+  G-5      vs P-5       Δmean=-0.0191  p_adj=0.0640  ns
+  P-0.5    vs P-5       Δmean=+0.0129  p_adj=0.1218  ns
+
+COMPACT LETTER DISPLAY
+----------------------------------------
+  Control       : a
+  G 0.5 mg/L    : b
+  G 5.0 mg/L    : c
+  P 0.5 mg/L    : b
+  P 5.0 mg/L    : b
+
+OUTPUT FILES
+----------------------------------------
+  descriptive_stats_per_group.csv
+  descriptive_stats_per_replicate.csv
+  normality_shapiro_wilk.csv
+  levene_test.csv
+  main_test_result.csv
+  posthoc_mannwhitney_bonferroni.csv
+  effect_sizes_cohens_d.csv
+  fig1_boxplot_comparison.png
+  fig2_barchart_sem.png
+  fig3_dose_response.png
+  fig4_violin_plot.png
+  fig5_pvalue_heatmap.png
+
+=================================================================

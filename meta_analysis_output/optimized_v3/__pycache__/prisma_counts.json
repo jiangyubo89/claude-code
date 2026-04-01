@@ -1,0 +1,23 @@
+{
+  "pubmed_hits": 3000,
+  "europe_pmc_hits": 2000,
+  "openalex_hits": 274,
+  "semantic_scholar_hits": 0,
+  "total_retrieved": 5274,
+  "after_dedup": 4482,
+  "with_fulltext": 141,
+  "with_abstract": 4391,
+  "screening_total": 4482,
+  "excluded_reviews": 1140,
+  "excluded_animal": 316,
+  "excluded_invitro": 402,
+  "excluded_env": 585,
+  "excluded_no_abstract": 91,
+  "total_excluded": 2534,
+  "included_studies": 1948,
+  "with_prevalence": 56,
+  "with_sample_size": 95,
+  "with_both": 21,
+  "excluded_nonhuman": 550,
+  "excluded_not_mp": 3
+}

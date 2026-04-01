@@ -1,0 +1,45 @@
+Ref_Number,PMID,DOI,First_Author,Year,Journal,Title,Verification_Status
+1,N/A,N/A,"Plastics Europe",2023,"Report","Plastics - the fast facts 2023",Industry_Report
+2,15131299,10.1126/science.1094559,"Thompson RC",2004,"Science","Lost at sea: where is all the plastic?",VERIFIED_PubMed
+3,N/A,10.1126/sciadv.1700782,"Geyer R",2017,"Sci Adv","Production use and fate of all plastics ever made",VERIFIED_DOI
+4,31184127,10.1021/acs.est.9b01517,"Cox KD",2019,"Environ Sci Technol","Human consumption of microplastics",VERIFIED_PubMed
+5,31209244,10.1038/s41598-019-45054-w,"Vianello A",2019,"Sci Rep","Simulating human exposure to indoor airborne microplastics",VERIFIED_PubMed
+6,31476765,10.7326/M19-0618,"Schwabl P",2019,"Ann Intern Med","Detection of various microplastics in human stool",VERIFIED_PubMed
+7,35367073,10.1016/j.envint.2022.107199,"Leslie HA",2022,"Environ Int","Discovery and quantification of plastic particle pollution in human blood",VERIFIED_PubMed
+8,35364151,10.1016/j.scitotenv.2022.154907,"Jenner LC",2022,"Sci Total Environ","Detection of microplastics in human lung tissue using uFTIR spectroscopy",VERIFIED_PubMed
+9,33395930,10.1016/j.envint.2020.106274,"Ragusa A",2021,"Environ Int","Plasticenta: first evidence of microplastics in human placenta",VERIFIED_PubMed
+10,35835713,10.1016/j.ebiom.2022.104147,"Horvatits T",2022,"EBioMedicine","Microplastics detected in cirrhotic liver tissue",VERIFIED_PubMed
+11,35808745,10.3390/polym14132700,"Ragusa A",2022,"Polymers (Basel)","Raman Microspectroscopy Detection and Characterisation of Microplastics in Human Breastmilk",VERIFIED_PubMed
+12,39901044,10.1038/s41591-024-03453-1,"Nihart AJ",2025,"Nat Med","Bioaccumulation of microplastics in decedent human brains",VERIFIED_PubMed
+13,38366932,10.1093/toxsci/kfae021,"Garcia MA",2024,"Toxicol Sci","Quantitation and identification of microplastics accumulation in human placental specimens",VERIFIED_PubMed
+14,33574197,10.1126/science.abe5041,"Vethaak AD",2021,"Science","Microplastics and human health",VERIFIED_PubMed
+15,30851606,10.1016/j.scitotenv.2019.02.431,"Novotna K",2019,"Sci Total Environ","Microplastics in drinking water treatment",VERIFIED_PubMed
+16,31733547,10.1016/j.scitotenv.2019.134455,"Prata JC",2020,"Sci Total Environ","Environmental exposure to microplastics: an overview on possible human health effects",VERIFIED_PubMed
+17,32111046,10.3390/ijerph17051509,"Yong CQY",2020,"Int J Environ Res Public Health","Toxicity of microplastics and nanoplastics in mammalian systems",VERIFIED_PubMed
+18,28531345,10.1021/acs.est.7b00423,"Wright SL",2017,"Environ Sci Technol","Plastic and human health: a micro issue?",VERIFIED_PubMed
+19,33782057,10.1136/bmj.n71,"Page MJ",2021,"BMJ","The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",VERIFIED_PubMed
+20,N/A,10.1214/aoms/1177729756,"Freeman MF",1950,"Ann Math Stat","Transformations related to the angular and the square root",Classic_Stats
+21,N/A,10.1016/0197-2456(86)90046-2,"DerSimonian R",1986,"Control Clin Trials","Meta-analysis in clinical trials",Classic_Stats
+22,N/A,10.2307/3001666,"Cochran WG",1954,"Biometrics","The combination of estimates from different experiments",Classic_Stats
+23,12958120,10.1136/bmj.327.7414.557,"Higgins JPT",2003,"BMJ","Measuring inconsistency in meta-analyses",VERIFIED_PubMed
+24,9310563,10.1136/bmj.315.7109.629,"Egger M",1997,"BMJ","Bias in meta-analysis detected by a simple graphical test",VERIFIED_PubMed
+25,34935363,10.1021/acs.est.1c03924,"Yan Z",2022,"Environ Sci Technol","Analysis of microplastics in human feces reveals a correlation with IBD",VERIFIED_PubMed
+26,34206212,10.3390/pharmaceutics13070921,"Braun T",2021,"Pharmaceutics","Detection of microplastic in human placenta and meconium in a clinical setting",VERIFIED_PubMed
+27,33724830,10.1021/acs.est.0c07384,"Mohamed Nor NH",2021,"Environ Sci Technol","Lifetime accumulation of microplastic in children and adults",VERIFIED_PubMed
+28,27989388,10.1016/j.envpol.2016.12.013,"Dris R",2017,"Environ Pollut","A first overview of textile fibers including microplastics in indoor and outdoor environments",VERIFIED_PubMed
+29,33804513,10.3390/ijerph18052392,"D'Angelo S",2021,"Int J Environ Res Public Health","Microplastics: a threat for male fertility",VERIFIED_PubMed
+30,28710404,10.1038/s41598-017-05838-4,"Wesch C",2017,"Sci Rep","Assuring quality in microplastic monitoring",VERIFIED_PubMed
+31,28436478,10.1038/srep46687,"Deng Y",2017,"Sci Rep","Tissue accumulation of microplastics in mice and biomarker responses",VERIFIED_PubMed
+32,26028989,10.1007/s11051-015-3029-y,"Walczak AP",2015,"J Nanopart Res","Bioavailability and biodistribution of differently charged polystyrene nanoparticles upon oral exposure in rats",VERIFIED_PubMed
+33,36269573,10.1021/acs.est.2c04706,"Liu S",2023,"Environ Sci Technol","The association between microplastics and microbiota in placentas and meconium",VERIFIED_PubMed
+34,38761430,10.1016/j.envint.2024.108751,"V L Leonard S",2024,"Environ Int","Microplastics in human blood: polymer types concentrations and characterisation",VERIFIED_PubMed
+35,37837933,10.1016/j.ebiom.2023.104828,"Ke D",2023,"EBioMedicine","Occurrence of microplastics and disturbance of gut microbiota",VERIFIED_PubMed
+36,40933963,10.55730/1300-0144.6043,"Arslan B",2025,"Turk J Med Sci","Detection and quantification of microplastics in cerumen",VERIFIED_PubMed
+37,38883588,10.1016/j.mex.2024.102777,"Santini S",2024,"MethodsX","Set up and validation of a method to analyse microplastics in stool",VERIFIED_PubMed
+38,41450414,10.7759/cureus.97632,"Zakynthinos GE",2025,"Cureus","Detection of microplastics in human bronchoalveolar lavage fluid",VERIFIED_PubMed
+39,38745203,10.1186/s12894-024-01495-8,"Demirelli E",2024,"BMC Urol","The first reported values of microplastics in prostate",VERIFIED_PubMed
+40,39064070,10.3390/jcm13144029,"Saraluck A",2024,"J Clin Med","Detection of microplastics in human breast milk",VERIFIED_PubMed
+41,39368622,10.1016/j.envpol.2024.125054,"Ozgen Alpaydin A",2024,"Environ Pollut","Microplastics as a risk factor in the development of interstitial lung disease",VERIFIED_PubMed
+42,37769922,10.1016/j.chemosphere.2023.140301,"Halfar J",2023,"Chemosphere","Microplastics and additives in patients with preterm birth",VERIFIED_PubMed
+43,41068921,10.1186/s12951-025-03747-7,"Qu J",2025,"J Nanobiotechnology","Detection of microplastics in human semen",VERIFIED_PubMed
+44,41523016,10.4103/jpbs.jpbs_1095_25,"Padarya SK",2025,"J Pharm Bioallied Sci","Detection of microplastics in human lung tissue",VERIFIED_PubMed

@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ls:*)",
+      "Bash(du:*)",
+      "Bash(python3:*)",
+      "Bash(chcp:*)",
+      "Bash(cd:*)",
+      "Bash(echo:*)",
+      "Bash(python -c \":*)",
+      "WebSearch",
+      "Bash(pip install:*)",
+      "Bash(git init:*)"
+    ]
+  }
+}

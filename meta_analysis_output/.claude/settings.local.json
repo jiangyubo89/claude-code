@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(ls -la D:/桌面/meta_analysis_output/optimized_v3/*.png D:/桌面/meta_analysis_output/optimized_v3/*.csv D:/桌面/meta_analysis_output/optimized_v3/*.txt)",
+      "Bash(ls:*)"
+    ]
+  }
+}

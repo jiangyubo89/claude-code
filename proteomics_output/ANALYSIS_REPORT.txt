@@ -1,0 +1,165 @@
+
+========================================================================
+PROTEOMICS ANALYSIS REPORT — PTX3 vs CONTROL (60 h)  [v2]
+Quantitative Label-Free Proteomics | 3+3 Biological Replicates
+Generated: 2026-03-14
+========================================================================
+
+1. EXPERIMENTAL OVERVIEW
+────────────────────────────────────────────────────────────
+  Comparison : PTX3-treated cells vs untreated Control
+  Duration   : 60 hours
+  Design     : 3 biological replicates per group (CTRL-1/2/3, PTX3-1/2/3)
+  Platform   : Label-free quantification (LFQ) mass spectrometry
+  Database   : UniProt/Swiss-Prot (Human)
+
+2. DATA SUMMARY & DEP CLASSIFICATION
+────────────────────────────────────────────────────────────
+  Proteins quantified : 4,910
+  log2FC range        : -14.56 to 15.17
+
+  Classification criteria:
+    FC cutoff      : |log2FC| >= 1.0
+    On/Off thresh  : max replicate intensity < 0.01
+    FDR method     : Benjamini-Hochberg
+
+  STRINGENT DEPs (p < 0.01, |log2FC| >= 1.0, excl on/off):
+    Up-regulated   : 22
+    Down-regulated : 9
+  EXPLORATORY DEPs (p < 0.05, |log2FC| >= 1.0, excl on/off):
+    Up-regulated   : 44
+    Down-regulated : 21
+  TOTAL quantitative DEPs: 96 (66 up, 30 down)
+  On/Off proteins (p < 0.05): 29
+
+  NOTE: BH FDR is very conservative with n=3 per group.
+  Only 4 proteins pass FDR < 0.05 (all on/off artifacts).
+
+3. QUALITY CONTROL
+────────────────────────────────────────────────────────────
+  Intra-group Pearson r (Ctrl)  : 0.8643 +/- 0.0228
+  Intra-group Pearson r (PTX3)  : 0.8917 +/- 0.0098
+
+4. TOP STRINGENT DEPs
+────────────────────────────────────────────────────────────
+  [UP-REGULATED — top by log2FC, p < 0.01]
+  Gene             log2FC     P value         FDR        FC
+  --------------------------------------------------------------
+  AAGAB             4.130      0.0032      0.3247     17.51
+  SGSH              4.129      0.0037      0.3416     17.49
+  ZCCHC10           3.267      0.0025      0.3002      9.62
+  GMDS              2.941      0.0089      0.3416      7.68
+  WDR89             2.814      0.0072      0.3416      7.03
+  CDC42BPA          2.792      0.0051      0.3416      6.93
+  TANK              2.774      0.0011      0.2089      6.84
+  PURA              2.450      0.0008      0.1779      5.47
+  NT5DC1            1.832      0.0079      0.3416      3.56
+  SPAG7             1.788      0.0041      0.3416      3.45
+  GINS2             1.784      0.0026      0.3002      3.44
+  NHEJ1             1.721      0.0003      0.1099      3.30
+  ARL6IP5           1.682      0.0010      0.1951      3.21
+  FKBP14            1.674      0.0022      0.2878      3.19
+  PPP1R10           1.536      0.0001      0.0646      2.90
+
+  [DOWN-REGULATED — top by |log2FC|, p < 0.01]
+  Gene             log2FC     P value         FDR        FC
+  --------------------------------------------------------------
+  COA3             -3.747      0.0007      0.1607      0.07
+  ACAD9            -1.378      0.0012      0.2182      0.38
+  UBE2G2           -1.322      0.0051      0.3416      0.40
+  PACS1            -1.288      0.0063      0.3416      0.41
+  EPHA2            -1.265      0.0098      0.3416      0.42
+  MRPL15           -1.202      0.0031      0.3247      0.43
+  DDX27            -1.144      0.0043      0.3416      0.45
+  H2AC18           -1.030      0.0096      0.3416      0.49
+  DPP9             -1.017      0.0080      0.3416      0.49
+
+5. ON/OFF PROTEINS
+────────────────────────────────────────────────────────────
+  Proteins detected in one condition but not the other (max replicate
+  intensity < 0.01 in at least one group). These show extreme log2FC
+  values that are artifacts of near-zero denominators.
+  Total: 29 (Gained: 19, Lost: 10)
+  These are EXCLUDED from pathway enrichment analysis.
+
+6. PATHWAY ENRICHMENT ANALYSIS (Enrichr)
+────────────────────────────────────────────────────────────
+  Gene lists: 66 up-regulated, 30 down-regulated
+  Minimum gene overlap: n >= 3
+  ** = Adj.P < 0.05
+
+  [KEGG – Up-regulated]
+     1. Autophagy                                               adj.p=1.54e-01 n=4
+     3. NOD-like receptor signaling pathway                     adj.p=5.07e-01 n=3
+     5. Lipid and atherosclerosis                               adj.p=5.07e-01 n=3
+     8. Shigellosis                                             adj.p=5.07e-01 n=3
+
+  [KEGG – Down-regulated]
+  ** 1. Parkinson disease                                       adj.p=4.14e-02 n=4
+  ** 2. Ribosome                                                adj.p=4.73e-02 n=3
+  ** 3. Necroptosis                                             adj.p=4.73e-02 n=3
+     4. Diabetic cardiomyopathy                                 adj.p=7.09e-02 n=3
+     5. Thermogenesis                                           adj.p=7.30e-02 n=3
+     6. Pathways of neurodegeneration                           adj.p=7.30e-02 n=4
+
+  [GO Biological Process – Up-regulated]
+     1. DNA replication initiation (GO:0006270)                 adj.p=5.69e-02 n=3
+     7. regulation of DNA replication (GO:0006275)              adj.p=5.69e-02 n=3
+     8. DNA-dependent DNA replication (GO:0006261)              adj.p=6.08e-02 n=4
+
+  [GO Biological Process – Down-regulated]
+  ** 1. mitochondrial respiratory chain complex assembly (GO:00 adj.p=3.96e-03 n=4
+  ** 2. mitochondrial respiratory chain complex I assembly (GO: adj.p=1.22e-02 n=3
+  ** 3. NADH dehydrogenase complex assembly (GO:0010257)        adj.p=1.22e-02 n=3
+     5. protein localization to membrane (GO:0072657)           adj.p=9.00e-02 n=3
+
+  [GO Molecular Function – Up-regulated]
+    30. mRNA binding (GO:0003729)                               adj.p=2.08e-01 n=3
+
+  [GO Cellular Component – Up-regulated]
+     2. chromosome (GO:0005694)                                 adj.p=1.47e-01 n=3
+     8. intracellular membrane-bounded organelle (GO:0043231)   adj.p=1.47e-01 n=25
+    16. nucleus (GO:0005634)                                    adj.p=1.47e-01 n=22
+    21. intracellular non-membrane-bounded organelle (GO:004323 adj.p=1.51e-01 n=8
+    26. intracellular organelle lumen (GO:0070013)              adj.p=2.03e-01 n=6
+
+  [WikiPathways – Up-regulated]
+     2. Ciliary landscape WP4352                                adj.p=3.05e-01 n=4
+
+7. STATISTICAL CONSIDERATIONS
+────────────────────────────────────────────────────────────
+  - P values are unadjusted two-sample t-tests (from original data)
+  - BH FDR computed but too conservative for n=3 (see Section 2)
+  - Dual-tier approach balances discovery vs false positive control
+  - On/off proteins excluded from enrichment to avoid inflated FC bias
+  - Enrichment terms filtered: minimum 3 overlapping genes
+  - Enrichment x-axis uses -log10(Adj.P) — Enrichr BH-corrected
+  - Adj.P < 0.05 threshold line shown on all enrichment plots
+
+8. RECOMMENDED FOLLOW-UP
+────────────────────────────────────────────────────────────
+  1. Validate top hits by Western blot or targeted mass spectrometry
+  2. Assess apoptosis: Annexin V/PI staining + caspase activity assay
+  3. Innate immune signaling: NF-kB luciferase reporter
+  4. Mitochondrial function: Seahorse XF respirometry
+  5. Cell cycle: BrdU/EdU incorporation or FACS-based analysis
+  6. PPI network: STRING/Cytoscape analysis of DEPs
+
+========================================================================
+OUTPUT FILES (in D:\桌面\proteomics_output):
+  00_MAIN_PANEL.pdf/png       - 5-panel summary figure
+  01_volcano_plot.pdf/png     - Volcano plot (dual-tier + on/off)
+  02_heatmap_top_DEPs.pdf/png - Heatmap of top quantitative DEPs
+  03_bar_chart_top_DEPs.pdf/png - Top up/down bar charts
+  04_sample_correlation.pdf/png - Sample correlation heatmap
+  05_distribution_plots.pdf/png - P-value & FC distributions
+  06_scatter_ctrl_vs_ptx3.pdf/png - Intensity scatter plot
+  07-12_enrichment.pdf/png    - Pathway enrichment bar charts
+  13_GOBP_bubble.pdf/png      - GO BP bubble plot
+  14_KEGG_combined.pdf/png    - KEGG combined bar
+  DEPs_table.csv              - Quantitative DEPs (96 proteins)
+  OnOff_proteins_table.csv    - On/off proteins (29 proteins)
+  full_protein_table.csv      - All 4,910 proteins
+  enrichment_*.csv            - Pathway enrichment tables
+  ANALYSIS_REPORT.txt         - This report
+========================================================================

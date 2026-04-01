@@ -1,0 +1,6 @@
+Group,Group_label,n,W_statistic,p_value,Normal (p>0.05)
+C,Control,41,0.9689,0.3181,Yes
+G-0.5,G 0.5 mg/L,40,0.9771,0.5847,Yes
+G-5,G 5.0 mg/L,36,0.9602,0.2176,Yes
+P-0.5,P 0.5 mg/L,35,0.9690,0.4172,Yes
+P-5,P 5.0 mg/L,41,0.9789,0.6334,Yes
